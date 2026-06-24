@@ -1,0 +1,197 @@
+{
+  "theme": {
+    "primary": "#FF9933",
+    "background": "#FFF5E6",
+    "text": "#1A1A1A",
+    "card": "#FFFFFF",
+    "accent": "#FF6B6B"
+  },
+  "campaign": {
+    "id": "mystery_gift_carnival",
+    "name": "Mystery Gift Carnival",
+    "overlay": {
+      "type": "FULL_SCREEN_OVERLAY",
+      "animation_url": "https://assets.example.com/confetti_carnival.json"
+    }
+  },
+  "blocks": [
+    {
+      "id": "block_1",
+      "type": "BANNER_HERO",
+      "data": {
+        "image_url": "https://picsum.photos/800/400",
+        "title": "Mystery Gift Carnival",
+        "subtitle": "Surprise gifts for your little ones!",
+        "cta_label": "Shop Now",
+        "action": {
+          "type": "DEEP_LINK",
+          "payload": { "url": "/campaign/mystery-gift" }
+        }
+      }
+    },
+    {
+      "id": "block_2",
+      "type": "DYNAMIC_COLLECTION",
+      "data": {
+        "title": "Snacks under ₹99",
+        "theme_color": "#FF6B6B",
+        "items": [
+          {
+            "id": "p1",
+            "name": "Makhana Snack",
+            "price": 49,
+            "image_url": "https://picsum.photos/150/150?random=1",
+            "action": { "type": "ADD_TO_CART", "payload": { "id": "p1", "name": "Makhana Snack", "price": 49 } }
+          },
+          {
+            "id": "p2",
+            "name": "Fruit Bites",
+            "price": 79,
+            "image_url": "https://picsum.photos/150/150?random=2",
+            "action": { "type": "ADD_TO_CART", "payload": { "id": "p2", "name": "Fruit Bites", "price": 79 } }
+          },
+          {
+            "id": "p3",
+            "name": "Rice Puffs",
+            "price": 39,
+            "image_url": "https://picsum.photos/150/150?random=3",
+            "action": { "type": "ADD_TO_CART", "payload": { "id": "p3", "name": "Rice Puffs", "price": 39 } }
+          },
+          {
+            "id": "p4",
+            "name": "Oat Cookies",
+            "price": 89,
+            "image_url": "https://picsum.photos/150/150?random=4",
+            "action": { "type": "ADD_TO_CART", "payload": { "id": "p4", "name": "Oat Cookies", "price": 89 } }
+          },
+          {
+            "id": "p5",
+            "name": "Veggie Chips",
+            "price": 59,
+            "image_url": "https://picsum.photos/150/150?random=5",
+            "action": { "type": "ADD_TO_CART", "payload": { "id": "p5", "name": "Veggie Chips", "price": 59 } }
+          }
+        ]
+      }
+    },
+    {
+      "id": "block_3",
+      "type": "PRODUCT_GRID_2X2",
+      "data": {
+        "title": "Top Picks for Kids",
+        "items": [
+          {
+            "id": "g1",
+            "name": "Building Blocks",
+            "price": 499,
+            "image_url": "https://picsum.photos/200/200?random=6",
+            "action": { "type": "ADD_TO_CART", "payload": { "id": "g1", "name": "Building Blocks", "price": 499 } }
+          },
+          {
+            "id": "g2",
+            "name": "Colouring Set",
+            "price": 299,
+            "image_url": "https://picsum.photos/200/200?random=7",
+            "action": { "type": "ADD_TO_CART", "payload": { "id": "g2", "name": "Colouring Set", "price": 299 } }
+          },
+          {
+            "id": "g3",
+            "name": "Story Books Pack",
+            "price": 399,
+            "image_url": "https://picsum.photos/200/200?random=8",
+            "action": { "type": "ADD_TO_CART", "payload": { "id": "g3", "name": "Story Books Pack", "price": 399 } }
+          },
+          {
+            "id": "g4",
+            "name": "Puzzle Set",
+            "price": 349,
+            "image_url": "https://picsum.photos/200/200?random=9",
+            "action": { "type": "ADD_TO_CART", "payload": { "id": "g4", "name": "Puzzle Set", "price": 349 } }
+          }
+        ]
+      }
+    },
+    {
+      "id": "block_4",
+      "type": "DYNAMIC_COLLECTION",
+      "data": {
+        "title": "Summer Essentials",
+        "theme_color": "#4FC3F7",
+        "items": [
+          {
+            "id": "s1",
+            "name": "Sun Hat",
+            "price": 199,
+            "image_url": "https://picsum.photos/150/150?random=10",
+            "action": { "type": "ADD_TO_CART", "payload": { "id": "s1", "name": "Sun Hat", "price": 199 } }
+          },
+          {
+            "id": "s2",
+            "name": "Water Bottle",
+            "price": 299,
+            "image_url": "https://picsum.photos/150/150?random=11",
+            "action": { "type": "ADD_TO_CART", "payload": { "id": "s2", "name": "Water Bottle", "price": 299 } }
+          },
+          {
+            "id": "s3",
+            "name": "Beach Sandals",
+            "price": 449,
+            "image_url": "https://picsum.photos/150/150?random=12",
+            "action": { "type": "ADD_TO_CART", "payload": { "id": "s3", "name": "Beach Sandals", "price": 449 } }
+          },
+          {
+            "id": "s4",
+            "name": "Swim Ring",
+            "price": 349,
+            "image_url": "https://picsum.photos/150/150?random=13",
+            "action": { "type": "ADD_TO_CART", "payload": { "id": "s4", "name": "Swim Ring", "price": 349 } }
+          }
+        ]
+      }
+    },
+    {
+      "id": "block_5",
+      "type": "PRODUCT_GRID_2X2",
+      "data": {
+        "title": "Baby Care Must-Haves",
+        "items": [
+          {
+            "id": "b1",
+            "name": "Baby Lotion",
+            "price": 249,
+            "image_url": "https://picsum.photos/200/200?random=14",
+            "action": { "type": "ADD_TO_CART", "payload": { "id": "b1", "name": "Baby Lotion", "price": 249 } }
+          },
+          {
+            "id": "b2",
+            "name": "Diaper Pack",
+            "price": 799,
+            "image_url": "https://picsum.photos/200/200?random=15",
+            "action": { "type": "ADD_TO_CART", "payload": { "id": "b2", "name": "Diaper Pack", "price": 799 } }
+          },
+          {
+            "id": "b3",
+            "name": "Baby Shampoo",
+            "price": 189,
+            "image_url": "https://picsum.photos/200/200?random=16",
+            "action": { "type": "ADD_TO_CART", "payload": { "id": "b3", "name": "Baby Shampoo", "price": 189 } }
+          },
+          {
+            "id": "b4",
+            "name": "Feeding Bottle",
+            "price": 349,
+            "image_url": "https://picsum.photos/200/200?random=17",
+            "action": { "type": "ADD_TO_CART", "payload": { "id": "b4", "name": "Feeding Bottle", "price": 349 } }
+          }
+        ]
+      }
+    },
+    {
+      "id": "block_6",
+      "type": "UNKNOWN_FUTURE_BLOCK",
+      "data": {
+        "some_field": "this should be silently ignored"
+      }
+    }
+  ]
+}
